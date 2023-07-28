@@ -1,0 +1,676 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.principal{
+    background-image: url(../img/maqbanner.png);
+    min-height: 508px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu-top{
+    background-color: #000000; 
+    position: relative;
+    height: 78px;
+}
+
+
+.container{
+    max-width: 1400px;/* Definindo a largura maxima */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+
+.container h1{
+    position: relative;
+    top: 60px;
+    left: 30px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 46px;
+}
+
+.logo{
+    position: relative;
+    background-image: url(../img/logo-diamente.png);
+    background-size: 100% 100%;
+    width: 60px;
+    height: 60px;  
+    float: left;  
+    margin-top: 10px; 
+    margin-left: 10px;
+}
+
+
+.desktop{
+    float: right;
+}
+
+
+nav.desktop ul{
+    list-style: none;/* desativando os topicos da linha */
+    padding-top: 25px;
+}
+
+
+nav.desktop li{
+    display: inline-block;
+    margin: 0 15px 30px 0;
+    
+}
+
+
+nav.desktop a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+nav.desktop a.cor1{
+    color: #EA10FD;
+    font-weight: bold;
+}
+nav.desktop a.cor2{
+    color: #9659F2;
+    font-weight: bold;
+}
+nav.desktop a.cor3{
+    color: #1EC1E2;
+    font-weight: bold;
+}
+
+nav li.btn-login{
+    padding: 3px 8px;
+    border-radius: 20px;
+    border: 2px solid #9659f2;
+}
+/* nav mobile */
+
+
+
+
+
+/* Banner e Formulário */
+
+div.chamada-mkt h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poiret One', cursive;
+}
+
+
+div.chamada-mkt form{
+    float: right;
+    margin-top: 78px;
+    padding: 18px;
+}
+
+
+form h3{
+    margin-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+div.chamada-mkt input[type=text]{
+    width: 190;
+    height: 45px;
+    border-radius: 100px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    padding-left: 15px;
+    outline: 0;
+}
+
+
+div.chamada-mkt input[type=email]{
+    width: 190;
+    height: 45px;
+    border-radius: 100px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    padding-left: 15px;
+    outline: 0;
+    margin: 30px;
+}
+
+
+div.chamada-mkt input[type=submit]{
+    background-image: linear-gradient(to right, #E911FC, #7C6FEE, #16C8E1);
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border: 0;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right:  -270px;
+    background: rgba(0, 0, 0, 0.3);
+    /* background-image: linear-gradient(to right, #E911FC, #7C6FEE, #16C8E1); */
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    border-right: 2px solid #9659f2;
+    border-bottom: 2px solid #1ec1e2;
+}
+
+
+
+
+/* Sessão Chamada Loja */
+
+.sessao01{
+    text-align: center;
+    padding: 32px;
+    background-color: #000000;
+}
+
+
+.sessao01 h3{
+    color: #ffffff;
+    font-size: 19px;
+}
+
+
+.sessao01 p{
+    color: #ffffff;
+}
+
+
+.sessao01 .cor1{
+    color: #EA10FD;
+    font-weight: bold;
+}
+
+
+.sessao01 .cor2{
+    color: #9659F2;
+    font-weight: bold;
+}
+
+
+.sessao01 .cor3{
+    color: #1EC1E2;
+    font-weight: bold;
+}
+
+
+/* Sessao Sobre */
+
+#sessao2 > .container{
+    background-size: cover;
+    position: relative;
+    max-width: 1040px;
+    min-height: 350px;
+    margin-top: 60px;
+}
+
+
+#sessao2 h1{
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 35px;
+}
+
+
+#sessao2 img{
+    border-radius: 10px;
+    width: 800px;
+    margin-left: 116px;
+    border-left: 2px solid #9659f2;
+    border-top: 2px solid #1ec1e2;
+}
+
+
+#sessao2{
+    margin-top: 100px;
+}
+
+
+.feedback{
+    position: absolute;
+    left: 50%;
+    width: 44%;
+    bottom: -68px;
+    max-width: 436px;
+    padding: 36px;
+    background: rgba(0, 0, 0, 0.4); ; 
+    box-shadow: 0 9px 20px 0 rgb(17, 17, 17, 0.5);
+    border-radius: 5px;
+}
+
+
+.feedback h2{
+    color: white;
+}
+
+.feedback p{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+
+/* Sessão Produto */
+
+.produtoh1{
+    text-align: center;
+    top: 130px;
+    position: relative;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+#sessao3 article{
+    background-color: #ffffff;  
+    margin: 8px;
+    text-align: center;
+    border-radius: 4px;
+    height: 289.52px;
+    float: right;
+    box-shadow: 0 9px 20px 0 rgb(12, 12, 12, 0.4);
+    border-right: 2px solid #9659f2;
+    border-bottom: 2px solid #1ec1e2;
+}
+
+
+#sessao3 article img{
+    width: 80%;
+    text-align: center;
+}
+.artigos{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: row;/* Falar a direção, para ficar em linhas */
+    /* flex-wrap: wrap; /* para os articles quebrarem */ 
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.artigos h3{
+    margin: 14px;
+}
+
+
+@keyframes animacao{
+    from {background-color:  #7C6FEE;}
+    to { background-color: #1ec1e2}
+}
+
+
+.artigos .btn a:hover{
+    background: #E911FC;;
+    /* transition: 3s; */
+    cursor: pointer;
+    animation-name: animacao;
+    animation-duration: 3s;
+}
+
+
+.btn a{
+    margin: 12px;
+    padding: 8px;
+    background-image: linear-gradient(to right, #E911FC, #7C6FEE, #16C8E1);
+    text-decoration: none;
+    border-radius: 12px;
+    color: #000000;
+}
+
+
+.ptc{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 120px;
+    padding: 19px;
+    background-color: black;
+    height: 150px;
+}
+
+.ptc article{
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.ptc article:hover{
+    transform: scale(1.25, 1.25);
+}
+
+.ptc img{
+    cursor: pointer;
+}
+
+
+
+
+/* Sessao Patrocinadores */
+
+.sessao4 article img{
+    border-radius: 10px;
+    width: 100px;
+}
+
+
+
+
+/* Fotter */
+.footer {
+    padding: 4px; 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0 30px 0;
+    gap: 100px;
+    padding: 16px;
+}
+
+
+.footer h2{
+    font-size: 28px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+.footer h3{
+    line-height: 34px;
+    font-size: 20px;
+}
+
+
+#contato{
+    position: absolute;
+    width: 320px;
+    height: 250px;
+    left: 156px;
+}
+
+
+#contato h2{
+    font-size: 35px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+.conheca{
+    margin-left: 400px;
+}
+
+
+.conheca h1{
+    font-size: 27px;
+    margin-bottom: 30px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+.conheca a{
+    margin: 24px 0 0 148px;
+    padding: 16px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #E911FC, #7C6FEE, #16C8E1);
+    border-radius: 15px;
+    margin: 165px;
+    color: rgb(7, 7, 7);
+}
+
+
+footer{
+    background-color: #000000;
+}
+
+.loja{
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+
+
+.imgfooter{
+    margin-left: 30px;
+}
+
+
+footer h2{
+    color: white;
+}
+
+
+.icones{
+    gap: 10px;
+    /* padding: 0px; */
+    display: flex;
+}
+
+.formas-de-pag{
+    display: flex;
+    gap: 16px;
+    float: left;
+}
+
+.formas-de-pag img{
+    width: 230px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.redes-sociais{
+    display: flex;
+    float: right;
+    position: relative;
+    gap: 15px;
+}
+
+
+
+
+
+/* PRODUTOS */
+
+.home{
+    margin: 10px 20px 10px 10px;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.home:hover{
+    transform: scale(1.25, 1.25);
+}
+.produto h2{
+    top: 50px;
+    position: relative;
+    left: 124px;
+    font-size: 38px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.artigos-produtos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 25px;
+    /* display: inline-block; */
+    height: 34%;
+    padding: 80px;
+}
+
+.artigos-produtos article{
+    background-color: #ffffff;
+    margin: 8px;
+    text-align: center;
+    border-radius: 4px;
+    height: 440px;
+    width: 250px;
+    box-shadow: 0 9px 20px 0 rgb(12, 12, 12, 0.4);
+    border-right: 2px solid #9659f2;
+    border-bottom: 2px solid #1ec1e2;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.artigos-produtos article:hover{
+    transform: scale(1.25, 1.25);
+}
+
+
+.artigos-produtos h3{
+    margin: 20px;
+}
+
+
+.precos p{
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+.artigos-produtos button{
+    margin: 10px;
+    padding: 10px;
+    width: 120px;
+    background-image: linear-gradient(to right, #E911FC, #7C6FEE, #16C8E1);
+    border: none;
+    border-radius: 15px;
+}
+.artigos-produtos article h4{
+    font-size: 35px;
+}
+
+.artigos-produtos img{
+    width: 224px;
+    margin: 12px 0 0 0;
+}
+
+
+
+
+/* ------------------------------------- Versão Mobile ------------------------------------- */
+
+.mobile{
+    display: none;
+}
+
+.mobile ul{
+    position: absolute;
+    width: 100%;
+    background-color: #000000;
+    left: 0;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    top: 0;
+    z-index: 1;
+    display: none;
+}
+
+.mobile li{
+    padding: 10px 0;
+}
+
+.mobile a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav.mobile a.cor1{
+    color: #EA10FD;
+    font-weight: bold;
+}
+nav.mobile a.cor2{
+    color: #9659F2;
+    font-weight: bold;
+}
+nav.mobile a.cor3{
+    color: #1EC1E2;
+    font-weight: bold;
+}
+
+nav.mobile li.btn-login{
+    padding: 4px 10px;
+    display: inline-block;
+}
+
+nav.mobile img{
+    width: 30px;
+    position: relative;
+    z-index: 2;
+    float: right;
+    margin: 16px;
+}
+
+
+@media screen and (max-width: 1024px){
+    .desktop{
+        display: none;
+    }
+    nav.mobile{
+        display: block;
+    }
+
+    .container h1{
+        text-align: center;
+        left: 0;
+    }
+
+    .chamada-mkt{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-right: 260px ;
+        margin-top: 50px;
+
+    }
+    div.chamada-mkt input[type=text]{
+        position: relative;
+        display: none;
+        background: none;
+    }
+    .sessao01 img{
+        text-align: center;
+    }
+
+    .artigos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer h2{
+        font-size: 24px;
+    }
+
+    .feedback{
+        left: 30%;
+        bottom: 44px;
+        top: 40px;
+    }
+   
+}
+
+
+
+
+
+
+
+
